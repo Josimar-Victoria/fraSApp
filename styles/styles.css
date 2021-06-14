@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frasapp__title{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.frasapp__menu{
+ display: flex;
+ justify-content: center;
+ justify-content: space-around;
+ margin-top: 16px;
+}
+.frasapp__menu li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.frasapp__menu li a:hover{
+    color: rgb(100, 193, 255);
+    transition: 0s;
+}
+hr{
+    width: 86%;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container__frasapp-title{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Open Sans', sans-serif;
+    min-width: auto;
+}
+.container__frasapp-title p a{
+    color: rgb(100, 193, 255);
+}
+.container__frasapp-lis{
+    margin-top: 30px;
+}
+.container__frasapp-lis li{
+    margin: 10px;
+}
+.container__img{
+ display: flex;
+ justify-content: center;
+}
